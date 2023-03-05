@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hospital.Web.Domain\Hospital.Web.Domain.csproj" />
+    <ProjectReference Include="..\Hospital.Web.Infraestrcuture.Persistence\Hospital.Web.Infraestructure.Persistence.csproj" />
+    <ProjectReference Include="..\Hospital.Web.Infraestructure\Hospital.Web.Infraestructure.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
